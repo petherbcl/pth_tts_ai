@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+:root {
+	/* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 24px;
+	font-weight: 400; */
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+html {
+	@apply h-full;
+	@apply text-black;
+	/* @apply bg-slate-900; */
+}
+
+body {
+	@apply h-full;
+}
+
+div#__next {
+	@apply h-full;
+}
+
+main {
+	@apply h-full;
+}
+
+/* The slider itself */
+.slider {
+	@apply bg-gray-300;
+	@apply transition-all duration-100;
+	@apply w-full;
+	@apply h-3;
+	@apply rounded-lg;
+	@apply opacity-70;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: none;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+	opacity: 1;
+	/* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+	@apply cursor-pointer;
+	@apply bg-amber-500;
+	@apply rounded-full;
+	@apply h-4;
+	@apply w-4;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.slider::-moz-range-thumb {
+	@apply h-4;
+	@apply w-4;
+	@apply bg-amber-500;
+	@apply cursor-pointer;
+}
