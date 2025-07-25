@@ -103,7 +103,7 @@ The web UI is built with:
 To develop the web UI:
 ```sh
 cd web
-npm run dev
+npm run build
 ```
 
 ## License
