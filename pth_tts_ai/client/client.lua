@@ -52,7 +52,9 @@ RegisterNUICallback('getData', function(data, cb)
     cb({voices = Config.voices, vibes = vibes})
 end)
 
-
+RegisterNUICallback('getLanguage', function(data, cb)
+    cb(Config.language)
+end)
 
 local function generateSpeech(data)
     TriggerServerEvent(resourceName..":generateSpeech", data)

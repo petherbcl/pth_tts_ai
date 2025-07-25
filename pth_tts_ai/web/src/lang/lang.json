@@ -1,0 +1,24 @@
+{
+    "en-US":{
+        "male": "male",
+        "female": "female",
+        "voices": "voices",
+        "writeText": "Write the text",
+        "read": "Read",
+        "volume": "Volume",
+        "pitch": "Pitch",
+        "textToSpeech": "Text To Speech",
+        "settings": "Settings"
+    },
+    "pt-BR":{
+        "male": "masculino",
+        "female": "feminino",
+        "voices": "vozes",
+        "writeText": "escreva o texto",
+        "read": "ler",
+        "volume": "Volume",
+        "pitch": "Tom",
+        "textToSpeech": "Texto para Fala",
+        "settings": "Configurações"
+    }
+}

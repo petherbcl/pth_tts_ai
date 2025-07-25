@@ -7,11 +7,13 @@
 	"scripts": {
 		"dev": "vite",
 		"dev:game": "vite build --watch",
-		"build": "tsc && vite build",
+		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"dependencies": {
 		"dayjs": "^1.11.7",
+		"i18next": "^25.3.2",
+		"i18next-browser-languagedetector": "^8.2.0",
 		"localforage": "^1.10.0",
 		"lodash": "^4.17.21",
 		"match-sorter": "^6.3.1",
@@ -19,6 +21,7 @@
 		"prettier": "^2.8.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-i18next": "^15.6.1",
 		"recoil": "^0.7.6",
 		"sort-by": "^1.2.0",
 		"tailwindcss": "^3.2.4"
@@ -26,14 +29,11 @@
 	"devDependencies": {
 		"@types/react": "^18.0.24",
 		"@types/react-dom": "^18.0.8",
-		"@typescript-eslint/eslint-plugin": "^5.44.0",
-		"@typescript-eslint/parser": "^5.44.0",
 		"@vitejs/plugin-react": "^2.2.0",
 		"autoprefixer": "^10.4.13",
 		"daisyui": "^5.0.46",
 		"eslint": "^8.28.0",
 		"eslint-plugin-react": "^7.31.11",
-		"typescript": "^4.6.4",
 		"vite": "^3.2.3"
 	}
 }

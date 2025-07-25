@@ -1,4 +1,5 @@
 Config = {
+    language = 'pt-BR',
 
     command = 'tts',
     radius = 2, -- Radius to find players nearbyPlayers

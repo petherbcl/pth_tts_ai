@@ -1,5 +1,6 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { fetchNui } from "../utils/fetchNui";
+import { useTranslation } from "react-i18next";
 
 export const DataContext = createContext({
     data: {},
@@ -10,6 +11,7 @@ export const DataContext = createContext({
 export const DataProvider = ({ children }) => {
     const [data, setData] = useState({});
     const [dataCache, setDataCache] = useState({ voice: 'ash' });
+    const {i18n} = useTranslation();
 
     useEffect(() => {
         let dataF = {
@@ -42,8 +44,10 @@ export const DataProvider = ({ children }) => {
         }
         async function fetchData() {
             var dataFetched = await fetchNui("getData", {}, dataF);
-            // console.log("Data fetched from NUI:", dataFetched);
             setData(dataFetched);
+
+            var dataLangFetched = await fetchNui("getLanguage", {}, 'pt-BR');
+            i18n.changeLanguage(dataLangFetched)
         }
 
         fetchData();
