@@ -54,3 +54,8 @@ end)
 
 
 
+local function generateSpeech(data)
+    TriggerServerEvent(resourceName..":generateSpeech", data)
+end
+
+exports("textToSpeech", generateSpeech)
