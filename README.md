@@ -105,7 +105,3 @@ To develop the web UI:
 cd web
 npm run dev
 ```
-
-## License
-
-[Your License Here]
