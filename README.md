@@ -97,7 +97,7 @@ The web UI is built with:
 - React
 - Tailwind CSS
 - DaisyUI
-- TypeScript
+- Ext Javascript
 - Vite
 
 To develop the web UI:
