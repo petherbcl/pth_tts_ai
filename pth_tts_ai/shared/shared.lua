@@ -1,11 +1,11 @@
 Config = {
-    language = 'pt-BR',
+    language = 'en-US',
 
     command = 'tts',
     radius = 2, -- Radius to find players nearbyPlayers
 
     testVoive = {
-        text = 'Olá, este é um teste de voz. Espero que você esteja gostando!',
+        text = 'Hello, this is a voice test. I hope you are enjoying it!',
     },
 
     voices = {
@@ -28,7 +28,7 @@ Config = {
 
     vibes = {
         calm = {
-            desc = 'Calmo',
+            desc = 'Calm',
             instructions = [[
 Voice Affect: voz suave e relaxada que transmite segurança;
 Tone: tranquilo e equilibrado;
@@ -39,7 +39,7 @@ Pauses: espaçadas e naturais entre as frases.
                             ]]
         },
         emotional = {
-            desc = 'Emocionado',
+            desc = 'Emotional',
             instructions = [[
 Voice Affect: voz calorosa e vibrante que envolve o ouvinte;
 Tone: entusiasmado e dinâmico;
@@ -50,7 +50,7 @@ Pauses: breves silêncios antes de pontos de clímax emocional.
                             ]]
         },
         sad = {
-            desc = 'Triste',
+            desc = 'Sad',
             instructions = [[
 Voice Affect: voz suave e melancólica;
 Tone: grave e compassivo;
@@ -61,7 +61,7 @@ Pauses: mais longas e reflexivas entre as frases.
                             ]]
         },
         surprise = {
-            desc = 'Surpreso',
+            desc = 'Surprised',
             instructions = [[
 Voice Affect: voz aguda e aberta que revela espanto;
 Tone: vibrante e curioso;
@@ -72,7 +72,7 @@ Pauses: breve hesitação imediata após a expressão de surpresa.
                             ]]
         },
         affraid = {
-            desc = 'Assustado',
+            desc = 'Scared',
             instructions = [[
 Voice Affect: voz trêmula e tensa;
 Tone: agudo e alarmado;
@@ -83,7 +83,7 @@ Pauses: interrupções abruptas e imprevisíveis que marcam o sobressalto.
                             ]]
         },
         happy = {
-            desc = 'Feliz',
+            desc = 'Happy',
             instructions = [[
 Voice Affect: voz clara e radiante que transmite alegria e energia;
 Tone: leve e otimista;
