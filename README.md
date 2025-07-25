@@ -57,7 +57,7 @@ ensure pth_tts_ai
 ```sh
 cd pth_tts_ai/web
 npm install
-npm run dev:game
+npm run build
 ```
 
 ## Usage
@@ -103,7 +103,7 @@ The web UI is built with:
 To develop the web UI:
 ```sh
 cd web
-npm run build
+npm run dev
 ```
 
 ## License
