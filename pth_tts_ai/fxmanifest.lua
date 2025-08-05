@@ -23,6 +23,7 @@ client_scripts {
 ui_page 'web/build/index.html'
 file_directory 'audio'
 files {
+	'modules/nui.lua',
 	'web/build/index.html',
 	'web/build/**/*',
 	'lang/lang.json'}
