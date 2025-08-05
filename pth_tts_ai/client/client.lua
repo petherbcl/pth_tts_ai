@@ -53,7 +53,9 @@ RegisterNUICallback('getData', function(data, cb)
 end)
 
 RegisterNUICallback('getLanguage', function(data, cb)
-    cb(Config.language)
+    local langFile = LoadResourceFile(resourceName, 'lang/lang.json')
+    local langData = json.decode(langFile)
+    cb({lang = Config.language, langData = langData})
 end)
 
 local function generateSpeech(data)

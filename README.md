@@ -1,6 +1,16 @@
 # PTH Text-to-Speech AI
 
-A FiveM resource that provides AI-powered text-to-speech capabilities using OpenAI's TTS API. The project consists of two main components:
+An advanced FiveM resource that brings AI-powered text-to-speech capabilities to your server using OpenAI's cutting-edge TTS API. Give your players the ability to vocalize their thoughts with realistic AI voices!
+
+## Key Features
+
+- Multiple AI voices with distinct personalities
+- 6 emotional tones (happy, sad, calm, surprised, afraid, emotional)
+- Smart proximity-based voice sharing
+- Customizable volume controls
+- Modern, user-friendly web interface
+- Real-time audio generation and playback
+- Automatic audio file cleanup
 
 ## Components
 
@@ -38,6 +48,7 @@ OPENAI_API_KEY=your_openai_api_key
 PORT=3000
 AUDIO_EXPIRATION=5
 AUDIO_SCHEDULE_CLEANUP=30
+MODEL_TTS=gpt-4o-mini-tts
 ```
 
 4. Start the server:
@@ -83,8 +94,6 @@ npm run build
 
 ### Server Config (serverConfig.lua)
 - `SERVER_HOST`: Express server address
-- `REMOVE_AUDIO_MIN`: Audio file expiration time
-- `MODEL_TTS`: OpenAI TTS model to use
 
 ### Shared Config (shared.lua)
 - `command`: Command to open TTS interface
@@ -105,3 +114,7 @@ To develop the web UI:
 cd web
 npm run dev
 ```
+
+## Support & Contributions
+
+Found a bug or want to contribute? Please open an issue or submit a pull request!

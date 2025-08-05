@@ -19,11 +19,9 @@ RegisterNetEvent(resourceName..":generateSpeech", function(data, playerList)
         end
 
     end, 'POST', json.encode({
-        model = ServerCgf.MODEL_TTS,
         voice = data.voice,
         input = data.text,
-        instructions = Config.vibes[data.vibe]?.instructions,
-        expiresIn = ServerCgf.REMOVE_AUDIO_MIN
+        instructions = Config.vibes[data.vibe]?.instructions
     }), {
         ['Content-Type'] = 'application/json'
     })
@@ -43,11 +41,9 @@ local function generateSpeech(source, data)
         TriggerClientEvent(resourceName..":playAudio", source, {audioURL = audioURL, volume = data.volume})
 
     end, 'POST', json.encode({
-        model = ServerCgf.MODEL_TTS,
         voice = data.voice,
         input = data.text,
-        instructions = Config.vibes[data.vibe]?.instructions,
-        expiresIn = ServerCgf.REMOVE_AUDIO_MIN
+        instructions = Config.vibes[data.vibe]?.instructions
     }), {
         ['Content-Type'] = 'application/json'
     })
