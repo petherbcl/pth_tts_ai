@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { fetchNui } from "../utils/fetchNui";
-import { useTranslation } from "react-i18next";
+import {i18nStart} from "../utils/i18n";
 
 export const DataContext = createContext({
     data: {},
@@ -11,7 +11,6 @@ export const DataContext = createContext({
 export const DataProvider = ({ children }) => {
     const [data, setData] = useState({});
     const [dataCache, setDataCache] = useState({ voice: 'ash' });
-    const {i18n} = useTranslation();
 
     useEffect(() => {
         let dataF = {
@@ -42,12 +41,60 @@ export const DataProvider = ({ children }) => {
                 }
             }
         }
+        let dataL = { lang: 'en-US',
+            langData : {
+                        "en-US": {
+                            "male": "male",
+                            "female": "female",
+                            "voices": "voices",
+                            "writeText": "Write the text",
+                            "read": "Read",
+                            "volume": "Volume",
+                            "pitch": "Pitch",
+                            "textToSpeech": "Text To Speech",
+                            "settings": "Settings"
+                        },
+                        "pt-BR": {
+                            "male": "masculino",
+                            "female": "feminino",
+                            "voices": "vozes",
+                            "writeText": "escreva o texto",
+                            "read": "ler",
+                            "volume": "Volume",
+                            "pitch": "Tom",
+                            "textToSpeech": "Texto para Fala",
+                            "settings": "Configurações"
+                        },
+                        "fr-FR": {
+                            "male": "masculin",
+                            "female": "féminin",
+                            "voices": "voix",
+                            "writeText": "Écrire le texte",
+                            "read": "Lire",
+                            "volume": "Volume",
+                            "pitch": "Hauteur",
+                            "textToSpeech": "Synthèse vocale",
+                            "settings": "Paramètres"
+                        },
+                        "es-ES": {
+                            "male": "masculino",
+                            "female": "femenino",
+                            "voices": "voces",
+                            "writeText": "Escribir el texto",
+                            "read": "Leer",
+                            "volume": "Volumen",
+                            "pitch": "Tono",
+                            "textToSpeech": "Texto a voz",
+                            "settings": "Configuración"
+                        }
+                    }
+        }
         async function fetchData() {
             var dataFetched = await fetchNui("getData", {}, dataF);
             setData(dataFetched);
 
-            var dataLangFetched = await fetchNui("getLanguage", {}, 'pt-BR');
-            i18n.changeLanguage(dataLangFetched)
+            var {lang, langData} = await fetchNui("getLanguage", {}, dataL);
+            i18nStart(lang, langData)
         }
 
         fetchData();

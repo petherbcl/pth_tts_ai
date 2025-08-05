@@ -11,19 +11,18 @@ shared_scripts {
 	'shared/*.lua'
 }
 
-client_scripts {
-	'client/*.lua'
+server_scripts {
+	'server/serverConfig.lua',
+	'server/server.lua',
 }
 
-server_scripts {
-	'server/*.lua',
-	'server/*.js',
+client_scripts {
+	'client/*.lua'
 }
 
 ui_page 'web/build/index.html'
 file_directory 'audio'
 files {
-	'modules/nui.lua', 
-	'web/build/index.html', 
+	'web/build/index.html',
 	'web/build/**/*',
-	'audio/*'}
+	'lang/lang.json'}

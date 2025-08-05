@@ -1,0 +1,134 @@
+{
+    "en-US": {
+        "male": "male",
+        "female": "female",
+        "voices": "voices",
+        "writeText": "Write the text",
+        "read": "Read",
+        "volume": "Volume",
+        "pitch": "Pitch",
+        "textToSpeech": "Text To Speech",
+        "settings": "Settings"
+    },
+    "pt-BR": {
+        "male": "masculino",
+        "female": "feminino",
+        "voices": "vozes",
+        "writeText": "escreva o texto",
+        "read": "ler",
+        "volume": "Volume",
+        "pitch": "Tom",
+        "textToSpeech": "Texto para Fala",
+        "settings": "Configurações"
+    },
+    "fr-FR": {
+        "male": "masculin",
+        "female": "féminin",
+        "voices": "voix",
+        "writeText": "Écrire le texte",
+        "read": "Lire",
+        "volume": "Volume",
+        "pitch": "Hauteur",
+        "textToSpeech": "Synthèse vocale",
+        "settings": "Paramètres"
+    },
+    "es-ES": {
+        "male": "masculino",
+        "female": "femenino",
+        "voices": "voces",
+        "writeText": "Escribir el texto",
+        "read": "Leer",
+        "volume": "Volumen",
+        "pitch": "Tono",
+        "textToSpeech": "Texto a voz",
+        "settings": "Configuración"
+    },
+    "de-DE": {
+        "male": "männlich",
+        "female": "weiblich",
+        "voices": "Stimmen",
+        "writeText": "Text schreiben",
+        "read": "Lesen",
+        "volume": "Lautstärke",
+        "pitch": "Tonhöhe",
+        "textToSpeech": "Text-zu-Sprache",
+        "settings": "Einstellungen"
+    },
+    "ja-JP": {
+        "male": "男性",
+        "female": "女性",
+        "voices": "音声",
+        "writeText": "テキストを書く",
+        "read": "朗読",
+        "volume": "音量",
+        "pitch": "ピッチ",
+        "textToSpeech": "テキスト読み上げ",
+        "settings": "設定"
+    },
+    "zh-CN": {
+        "male": "男性",
+        "female": "女性",
+        "voices": "语音",
+        "writeText": "写文本",
+        "read": "朗读",
+        "volume": "音量",
+        "pitch": "音调",
+        "textToSpeech": "文本转语音",
+        "settings": "设置"
+    },
+    "ar-SA": {
+        "male": "ذكر",
+        "female": "أنثى",
+        "voices": "أصوات",
+        "writeText": "اكتب النص",
+        "read": "اقرأ",
+        "volume": "مستوى الصوت",
+        "pitch": "نغمة",
+        "textToSpeech": "النص إلى كلام",
+        "settings": "الإعدادات"
+    },
+    "ru-RU": {
+        "male": "мужской",
+        "female": "женский",
+        "voices": "голоса",
+        "writeText": "Написать текст",
+        "read": "Читать",
+        "volume": "Громкость",
+        "pitch": "Тон",
+        "textToSpeech": "Текст в речь",
+        "settings": "Настройки"
+    },
+    "hi-IN": {
+        "male": "पुरुष",
+        "female": "महिला",
+        "voices": "ध्वनियाँ",
+        "writeText": "पाठ लिखें",
+        "read": "पढ़ें",
+        "volume": "ध्वनि स्तर",
+        "pitch": "पिच",
+        "textToSpeech": "टेक्स्ट से भाषण",
+        "settings": "सेटिंग्स"
+    },
+    "ko-KR": {
+        "male": "남성",
+        "female": "여성",
+        "voices": "음성",
+        "writeText": "텍스트 작성",
+        "read": "읽기",
+        "volume": "볼륨",
+        "pitch": "피치",
+        "textToSpeech": "텍스트 음성 변환",
+        "settings": "설정"
+    },
+    "pt-PT": {
+        "male": "masculino",
+        "female": "feminino",
+        "voices": "vozes",
+        "writeText": "escreva o texto",
+        "read": "ler",
+        "volume": "Volume",
+        "pitch": "Tom",
+        "textToSpeech": "Texto para fala",
+        "settings": "Configurações"
+    }
+}
