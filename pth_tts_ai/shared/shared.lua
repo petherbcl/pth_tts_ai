@@ -30,67 +30,67 @@ Config = {
         calm = {
             desc = 'Calm',
             instructions = [[
-Voice Affect: voz suave e relaxada que transmite segurança;
-Tone: tranquilo e equilibrado;
-Pacing: ritmo lento a moderado que inspira calma;
-Emotion: serenidade e confiança;
-Pronunciation: articulação clara com vogais ligeiramente alongadas;
-Pauses: espaçadas e naturais entre as frases.
+Voice Affect: soft and relaxed voice that conveys confidence;
+Tone: calm and balanced;
+Pacing: slow to moderate pace that inspires calm;
+Emotion: serenity and confidence;
+Pronunciation: clear articulation with slightly elongated vowels;
+Pauses: spaced and natural between sentences.
                             ]]
         },
         emotional = {
             desc = 'Emotional',
             instructions = [[
-Voice Affect: voz calorosa e vibrante que envolve o ouvinte;
-Tone: entusiasmado e dinâmico;
-Pacing: ritmo ligeiramente acelerado que reflete excitação;
-Emotion: paixão e energia;
-Pronunciation: ênfase acentuada em palavras-chave;
-Pauses: breves silêncios antes de pontos de clímax emocional.
+Voice Affect: warm and vibrant voice that envelops the listener;
+Tone: enthusiastic and dynamic;
+Pacing: slightly accelerated pace that reflects excitement;
+Emotion: passion and energy;
+Pronunciation: strong emphasis on key words;
+Pauses: brief silences before points of emotional climax.
                             ]]
         },
         sad = {
             desc = 'Sad',
             instructions = [[
-Voice Affect: voz suave e melancólica;
-Tone: grave e compassivo;
-Pacing: ritmo lento que reforça o sentimento de dor;
-Emotion: tristeza e pesar;
-Pronunciation: articulação menos vigorosa com leve tremor;
-Pauses: mais longas e reflexivas entre as frases.
+Voice Affect: soft and melancholic voice;
+Tone: deep and compassionate;
+Pacing: slow pace that reinforces the feeling of pain;
+Emotion: sadness and sorrow;
+Pronunciation: less vigorous articulation with a slight tremor;
+Pauses: longer and reflective between sentences.
                             ]]
         },
         surprise = {
             desc = 'Surprised',
             instructions = [[
-Voice Affect: voz aguda e aberta que revela espanto;
-Tone: vibrante e curioso;
-Pacing: ritmo rápido e inesperado;
-Emotion: surpresa e admiração;
-Pronunciation: vogais mais abertas e ênfase em sílabas-chave;
-Pauses: breve hesitação imediata após a expressão de surpresa.
+Voice Affect: high and open voice that reveals astonishment;
+Tone: vibrant and curious;
+Pacing: rapid and unexpected pace;
+Emotion: surprise and wonder;
+Pronunciation: more open vowels and emphasis on key syllables;
+Pauses: brief hesitation immediately after expressing surprise.
                             ]]
         },
         affraid = {
             desc = 'Scared',
             instructions = [[
-Voice Affect: voz trêmula e tensa;
-Tone: agudo e alarmado;
-Pacing: ritmo irregular e acelerado;
-Emotion: medo e apreensão;
-Pronunciation: pronúncia fragmentada com ênfase em consoantes finais;
-Pauses: interrupções abruptas e imprevisíveis que marcam o sobressalto.
+Voice Affect: trembling and tense voice;
+Tone: sharp and alarmed;
+Pacing: irregular and accelerated pace;
+Emotion: fear and apprehension;
+Pronunciation: fragmented pronunciation with emphasis on final consonants;
+Pauses: abrupt and unpredictable interruptions that mark the startle.
                             ]]
         },
         happy = {
             desc = 'Happy',
             instructions = [[
-Voice Affect: voz clara e radiante que transmite alegria e energia;
-Tone: leve e otimista;
-Pacing: ritmo moderado a ligeiramente acelerado que reflete entusiasmo;
-Emotion: felicidade contagiante e positividade;
-Pronunciation: articulação vivaz, vogais abertas e sílabas ressaltadas;
-Pauses: breves e ritmadas para enfatizar a vivacidade.
+Voice Affect: clear and radiant voice that conveys joy and energy;
+Tone: light and optimistic;
+Pacing: moderate to slightly accelerated pace that reflects enthusiasm;
+Emotion: contagious happiness and positivity;
+Pronunciation: lively articulation, open vowels and highlighted syllables;
+Pauses: brief and rhythmic to emphasize liveliness.
 ]]
         }
     }
